@@ -1,0 +1,113 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: #0b0600;
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --font-display: var(--font-playfair);
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+}
+
+:root {
+  --bg: #000000;
+  --fg: #ffffff;
+  --gold: #bd9f57;
+  --ink: #1a1a1a;
+
+  --background: var(--bg);
+  --foreground: var(--fg);
+  --card: #0a0a0a;
+  --card-foreground: var(--fg);
+  --popover: rgba(12, 12, 12, 0.96);
+  --popover-foreground: var(--fg);
+  --primary: var(--gold);
+  --primary-foreground: #0b0903;
+  --secondary: #111111;
+  --secondary-foreground: var(--fg);
+  --muted: #161616;
+  --muted-foreground: #d3d3d3;
+  --accent: rgba(189, 159, 87, 0.14);
+  --accent-foreground: var(--fg);
+  --destructive: #ff5b60;
+  --border: var(--ink);
+  --input: #222222;
+  --ring: rgba(189, 159, 87, 0.6);
+
+  color-scheme: dark;
+}
+
+.dark {
+  --background: var(--bg);
+  --foreground: var(--fg);
+  --card: #0f0f0f;
+  --card-foreground: var(--fg);
+  --popover: rgba(10, 10, 10, 0.92);
+  --popover-foreground: var(--fg);
+  --primary: var(--gold);
+  --primary-foreground: #0b0903;
+  --secondary: #141414;
+  --secondary-foreground: var(--fg);
+  --muted: #1d1d1d;
+  --muted-foreground: #c5c5c5;
+  --accent: rgba(189, 159, 87, 0.18);
+  --accent-foreground: var(--fg);
+  --border: var(--ink);
+  --input: #262626;
+  --ring: rgba(189, 159, 87, 0.65);
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    border-color: var(--border);
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    min-height: 100svh;
+  }
+
+  ::selection {
+    background: rgba(189, 159, 87, 0.35);
+    color: var(--fg);
+  }
+}
+
+@layer utilities {
+  .text-gold {
+    color: var(--gold);
+  }
+
+  .bg-gold {
+    background-color: var(--gold);
+  }
+
+  .border-ink {
+    border-color: var(--ink);
+  }
+}

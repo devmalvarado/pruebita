@@ -1,0 +1,25 @@
+<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" fill="url(#paint0_linear)" />
+  <g opacity="0.9" filter="url(#filter0_f)">
+    <path d="M140 620C238 570 310 420 360 340C420 244 504 200 540 190V800H140V620Z" fill="url(#paint1_linear)"/>
+  </g>
+  <path d="M120 200C210 120 390 120 480 200C540 255 552 348 516 424C480 500 414 548 318 600C222 652 144 720 96 680C48 640 30 560 54 460C78 360 90 280 120 200Z" fill="url(#paint2_radial)" stroke="rgba(189,159,87,0.5)" stroke-width="4"/>
+  <defs>
+    <filter id="filter0_f" x="90" y="140" width="500" height="710" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+    <linearGradient id="paint0_linear" x1="300" y1="0" x2="300" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#050505"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="paint1_linear" x1="340" y1="220" x2="360" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#BD9F57" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#BD9F57" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 380) rotate(90) scale(340 220)">
+      <stop offset="0.1" stop-color="#1A1A1A"/>
+      <stop offset="0.55" stop-color="#0C0C0C"/>
+      <stop offset="0.95" stop-color="#050505"/>
+    </radialGradient>
+  </defs>
+</svg>

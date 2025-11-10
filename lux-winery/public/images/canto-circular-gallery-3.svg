@@ -1,0 +1,25 @@
+<svg width="600" height="800" viewBox="0 0 600 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="800" fill="url(#paint0_linear)"/>
+  <path d="M160 640C160 520 280 520 300 420C320 520 440 520 440 640C440 720 380 760 300 760C220 760 160 720 160 640Z" fill="url(#paint1_radial)" stroke="#BD9F57" stroke-opacity="0.3" stroke-width="4"/>
+  <path d="M220 220C220 170 260 140 300 140C340 140 380 170 380 220C380 260 352 300 300 348C248 300 220 260 220 220Z" fill="url(#paint2_radial)" stroke="#BD9F57" stroke-opacity="0.3" stroke-width="4"/>
+  <g filter="url(#filter0_f)">
+    <ellipse cx="300" cy="400" rx="190" ry="160" fill="#BD9F57" fill-opacity="0.08"/>
+  </g>
+  <defs>
+    <linearGradient id="paint0_linear" x1="300" y1="0" x2="300" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080808"/>
+      <stop offset="1" stop-color="#020202"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 620) rotate(90) scale(140 160)">
+      <stop stop-color="#111112"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <radialGradient id="paint2_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(300 210) rotate(90) scale(110 90)">
+      <stop stop-color="#121213"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <filter id="filter0_f" x="40" y="160" width="520" height="480" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="70"/>
+    </filter>
+  </defs>
+</svg>

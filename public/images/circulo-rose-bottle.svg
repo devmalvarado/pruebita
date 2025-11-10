@@ -1,0 +1,30 @@
+<svg width="220" height="420" viewBox="0 0 220 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g filter="url(#shadow)">
+    <rect x="92" y="30" width="36" height="90" rx="18" fill="#0F0F0F"/>
+    <rect x="84" y="118" width="52" height="230" rx="26" fill="url(#bottle)"/>
+    <rect x="90" y="156" width="40" height="108" fill="url(#label)"/>
+    <rect x="98" y="70" width="24" height="36" fill="#1A1A1A"/>
+    <rect x="95" y="195" width="30" height="3" fill="#D9C08A" opacity="0.4"/>
+    <rect x="95" y="210" width="30" height="3" fill="#D9C08A" opacity="0.4"/>
+    <rect x="95" y="225" width="30" height="3" fill="#D9C08A" opacity="0.4"/>
+  </g>
+  <defs>
+    <linearGradient id="bottle" x1="110" y1="118" x2="110" y2="348" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D1F2C"/>
+      <stop offset="0.35" stop-color="#8F3345"/>
+      <stop offset="0.65" stop-color="#B74459"/>
+      <stop offset="1" stop-color="#6F2031"/>
+    </linearGradient>
+    <linearGradient id="label" x1="110" y1="156" x2="110" y2="264" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#121212"/>
+      <stop offset="0.45" stop-color="#151515"/>
+      <stop offset="1" stop-color="#0F0F0F"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="220" height="420" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="18"/>
+      <feGaussianBlur stdDeviation="24"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.1 0 0 0 0 0.09 0 0 0 0 0.08 0 0 0 0.35 0"/>
+      <feBlend in2="SourceGraphic" result="shape"/>
+    </filter>
+  </defs>
+</svg>

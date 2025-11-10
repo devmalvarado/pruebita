@@ -1,0 +1,18 @@
+<svg width="600" height="420" viewBox="0 0 600 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="600" height="420" fill="#090909"/>
+  <path d="M220 320C240 300 360 300 380 320" stroke="#BD9F57" stroke-width="14" stroke-linecap="round"/>
+  <ellipse cx="300" cy="180" rx="80" ry="160" fill="url(#glass)" opacity="0.7"/>
+  <ellipse cx="300" cy="200" rx="45" ry="90" fill="#BD6670" opacity="0.55"/>
+  <ellipse cx="300" cy="310" rx="90" ry="22" fill="#1A1A1A" opacity="0.9"/>
+  <rect x="0" y="0" width="600" height="420" fill="url(#overlay)"/>
+  <defs>
+    <linearGradient id="glass" x1="260" y1="40" x2="340" y2="340" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.6)"/>
+      <stop offset="100%" stop-color="rgba(255,255,255,0.05)"/>
+    </linearGradient>
+    <linearGradient id="overlay" x1="0" y1="0" x2="600" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.2)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.8)"/>
+    </linearGradient>
+  </defs>
+</svg>
